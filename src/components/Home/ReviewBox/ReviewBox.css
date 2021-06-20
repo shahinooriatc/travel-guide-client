@@ -1,0 +1,12 @@
+.review-user-img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.review-user {
+  font-weight: 500;
+}
+
+.review-text {
+  font-size: 14px;
+}

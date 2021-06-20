@@ -1,0 +1,75 @@
+.service-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.service-box:hover .service-box-img img {
+  transform: scale(1);
+}
+
+.service-box-img {
+  position: relative;
+}
+
+.service-box-img img {
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
+}
+
+.service-box-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(66, 170, 211, 0.589);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.service-box:hover .service-box-img .service-box-btn {
+  opacity: 1;
+}
+
+.service-box-details {
+  background-color: var(--color-white);
+  position: relative;
+}
+
+.service-box-details::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  right: 60px;
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-white);
+  transform: rotate(45deg);
+}
+
+.service-box-price {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  color: var(--color-white);
+  font-weight: bold;
+  z-index: 200;
+}
+
+.service-box-title {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.take-service {
+  width: 50px;
+  cursor: pointer;
+  filter: invert(100%) sepia(3%) saturate(13%) hue-rotate(81deg)
+    brightness(106%) contrast(106%);
+}
+
+@media (max-width: 992px) {
+  .service-box-btn {
+    opacity: 1;
+  }
+}
