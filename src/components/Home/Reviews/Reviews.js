@@ -10,7 +10,7 @@ const Reviews = () => {
     const history = useHistory();
 
     useEffect(() => {
-        fetch('http://localhost:5000/allReviews')
+        fetch('https://travel-guides.herokuapp.com/allReviews')
             .then(res => res.json())
             .then(data => {
                 if (data) {
