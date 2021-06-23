@@ -1,8 +1,12 @@
 <div align="center">
   
-# Travel Guru - A full stack MERN stack application
+# Travel Guide - A full stack MERN stack application
 <br/>
-✨ _Loved the project? Give this project a star to show your support._ ✨
+
+Live link: https://ema-jhon-auth-2142d.web.app/  (Use old Project for firebase Project limited..)
+Client Repo: https://github.com/shahinooriatc/travel-guide-client
+Server Repo: https://github.com/shahinooriatc/travel-guide-server
+
  </div>
 
 ---
@@ -18,12 +22,13 @@
 - [x] Custom CSS for beautiful design and layout
 
 ## 🚀 Getting started
-The project is deployed here : https://travel-guru-e1c27.firebaseapp.com/
+The project is deployed here : https://ema-jhon-auth-2142d.web.app/
+
 
 Guide for local deployment - 
 1. Clone the repo
 ``` bash
-git clone https://github.com/mohammad-naimur-rahman/travel-guru-fullstack-client.git
+git clone https://github.com/shahinooriatc/travel-guide-client
 ```
 2. Install the dependencies
 ```bash
@@ -38,9 +43,6 @@ npm start
 http://localhost:3000
 ```
 
-## ❤️ Support
-
-If you happen to love this project, leave a star on the repo. That'll keep me motivated. Let me know your thoughts with a tweet. Mention me [@your_naimur](https://twitter.com/your_naimur).
 
 Thanks!
 
