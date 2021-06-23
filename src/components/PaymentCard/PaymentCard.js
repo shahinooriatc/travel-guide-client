@@ -38,7 +38,7 @@ const PaymentCard = ({ bookingInfo }) => {
                 last4digit: paymentMethod.card.last4
             }
             const allInfo = { ...bookingInfo, ...paymentInfo };
-            fetch('http://localhost:5000/addOrder', {
+            fetch('https://travel-guides.herokuapp.com/addOrder', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(allInfo)
