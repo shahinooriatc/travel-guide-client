@@ -5,6 +5,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import './Book.css';
 import PaymentCard from '../PaymentCard/PaymentCard';
 import { useHistory } from 'react-router';
+import { Container } from 'react-bootstrap';
 
 const Book = () => {
     const { state } = useContext(GlobalContext);
@@ -35,7 +36,7 @@ const Book = () => {
     const stripePromise = loadStripe('pk_test_51Ie0iKGjokFP6Zd2vxFTqWrwPf7M47GJEzcQpH3AlfgEGCxIVz43YkSM729W0tw7NnldqeRUTPVDkCoSQW6yeHXF00K3cXdAbv');
 
     return (
-        <div className='p-3 book'>
+        <Container className='p-3 book'>
             {
                 serviceName && showBookingInfo && <>
                     <h2>Book a service</h2>
@@ -68,7 +69,7 @@ const Book = () => {
                     </Elements>
                 </div>
             }
-        </div>
+        </Container>
     );
 };
 

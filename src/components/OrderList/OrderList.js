@@ -12,6 +12,7 @@ const OrderList = () => {
         fetch('https://travel-guides.herokuapp.com/allBookings')
             .then(res => res.json())
             .then(data => {
+                
                 if (data) {
                     dispatch(fetchOrder(data));
                 }
