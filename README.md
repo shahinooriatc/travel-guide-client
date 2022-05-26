@@ -9,6 +9,7 @@ Server Repo: https://github.com/shahinooriatc/travel-guide-server
 
  </div>
 
+![alt text](https://github.com/shahinooriatc/travel-guide-client/blob/ce36d265eed51bda74bf9b52ee61a60bdc61576b/public/assets/Images/Full%20page%20Travel%20Guide.png)
 ---
 ## 🧐 Features:
 - [x] Full SPA application
